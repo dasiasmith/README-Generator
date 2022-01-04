@@ -47,23 +47,25 @@ const questions = () => {
             },
             {
                 type: 'checkbox',
-                name: 'runTest',
+                name: 'tests',
                 message: 'What command should be run to run tests?',
                 choices: ['npm test'],
                 default: 'npm test',
             },
             {
                 type: 'input',
-                name: 'aboutRepo',
+                name: 'usage',
                 message: 'What does the user need to know about using the repo?',
             },
             {
                 type: 'input',
-                name: 'aboutContr',
+                name: 'contributions',
                 message: 'What does the user need to know about contributing to the repo?',
             },
         ])
         .then((responses) => {
+            var license = responses.license;
+            console.log(license);
             writeToFile('README.md', generateMarkdown(responses))
         })
         .catch((err) => {
