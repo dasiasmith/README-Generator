@@ -90,7 +90,7 @@ function generateMarkdown(responses) {
 
   ## License
 
-  This project is licensed under the ${answers.license} license.
+  This project is licensed under the ${responses.license} license.
 
   ## Contributing
 
