@@ -64,8 +64,6 @@ const questions = () => {
             },
         ])
         .then((responses) => {
-            var license = responses.license;
-            console.log(license);
             writeToFile('README.md', generateMarkdown(responses))
         })
         .catch((err) => {
