@@ -4,7 +4,8 @@
 
   ## Description
 
-  Application that creates README markdown file specific to user's project. 
+  This application that creates README markdown file specific to user's project utilizing  Nodejs and Inquirer to gather user's information about the project installation,
+  usage, license used, contribution and run test information, and where to reach user for additional questions. 
 
   ## Table of Contents
 
@@ -30,7 +31,10 @@
 
   ## Usage
 
-  NA
+  The following animation demonstrates the application functionality:
+
+  ![A user inputs project README information into terminal and application outputs markdown file.](./Images/REDMEApplication.gif)
+
 
   ## License
 
@@ -50,6 +54,6 @@
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at dasiasmith023@gmail.com. You can find more of work
-  at ![dasiasmith](https://github.com/dasiasmith/).
+  If you have any questions about the repo, open an issue or contact me directly at dasiasmith023@gmail.com. You can find more of my work
+  at ![dasiasmith](https://github.com/dasiasmith).
 
