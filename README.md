@@ -33,7 +33,7 @@
 
   The following animation demonstrates the application functionality:
 
-  ![A user inputs project README information into terminal and application outputs markdown file.](./Images/REDMEApplication.gif)
+  ![A user inputs project README information into terminal and application outputs markdown file.](./Images/READMEApplication.gif)
 
 
   ## License
@@ -55,5 +55,5 @@
   ## Questions
 
   If you have any questions about the repo, open an issue or contact me directly at dasiasmith023@gmail.com. You can find more of my work
-  at ![dasiasmith](https://github.com/dasiasmith).
+  at https://github.com/dasiasmith .
 
